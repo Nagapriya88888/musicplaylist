@@ -6,7 +6,7 @@ class Song:
         self.duration = duration 
         
 def display_songs_by_genre(songs, genre):
-    print(f"{genre} Songs:")
+    print(f"{genre} Songs. :")
     for song in songs:
         if song.genre == genre:
             print(f"Title: {song.title}, Artist: {song.artist}, Duration: {song.duration} seconds")
